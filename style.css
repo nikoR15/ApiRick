@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    height: 40%;
+    background: black;
+}
+
+#seeker{
+    width: 20rem;
+    height: 1.5rem;
+    font-size: 1.5rem;
+    margin-left: 38%;   
+    text-align: center;
+    border-radius: 20px;
+    background: #73f3ef;
+    border-color: #73f3ef;
+    /* margin-top: 2rem; */
+}
+
+.fondo{
+    height:100%;
+    background: url(./image/fondoHeader.png)no-repeat center;
+}
+
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: #000000;
+}
+
+.card{
+    height:20rem;
+    width: 20rem;
+    margin: 4rem;
+    background: #73f3ef;
+    border-radius: 10px;
+    box-shadow:  0 0 20px #73f3ef;
+}
+
+.card > .gender{
+    display: flex;
+    font-size:2rem;
+    justify-content: center;
+    height:10%;
+    padding-bottom:1rem;
+}
+
+.card > .name{
+    display: flex;
+    justify-content: center;
+    height:10%;
+    font-size:1.5rem;
+    color:black;
+    font-weight: bolder;
+}
+
+.card > img{
+    height:70%;
+    width: 80%;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    border-radius:10px;
+    box-shadow:  0 0 20px #73f3ef;
+}
+
+
+.card:hover{
+    transform: scale(1.1);
+
+}
+.filtro{
+    display: none;
+}
